@@ -1,0 +1,93 @@
+/* ==========COMMON CSS STARTS========== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.full {
+  width: 100%;
+}
+.row {
+  display: flex;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.button {
+  font-weight: 800;
+  font-size: 14px;
+  color: #0b1016;
+  padding: 19px 42px;
+  background-color: #cfc91d;
+}
+
+/* ==========COMMON CSS ENDS========== */
+
+/* ==========NAVIGATION CSS STARTS========== */
+nav {
+  background-color: #02918c;
+}
+nav .container {
+  justify-content: space-between;
+  align-items: center;
+}
+nav .container div ul li {
+  display: inline-block;
+}
+nav .container div ul li a {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 26px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+/* ==========NAVIGATION CSS ENDS========== */
+
+/* ==========BANNER CSS STARTS========== */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)),
+    url(./img/banner.jpg);
+  background-size: cover;
+  height:728px ;
+}
+.banner .container {
+  text-align: center;
+  padding: 210px 0px;
+}
+.banner .container h5 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+
+}
+.banner .container h1{
+    font-size: 68px;
+    letter-spacing: 30px;
+    color: #ffffff;
+    font-weight: 800;
+}
+.banner .container p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+.banner .container img{
+    margin: 52px 0px;
+}
+
+/* ==========BANNER CSS ENDS========== */
